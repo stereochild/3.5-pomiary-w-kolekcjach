@@ -92,7 +92,7 @@ class SpeedTest {
 
         System.out.println("Adding new entry to the HashMap has taken: " + (end - begin) + "ns");
 
-        //Removing the random entry from the HashMap
+        //Removing random entry from the HashMap
         begin = System.nanoTime();
         myMap.remove(new Key(theGenerator.nextInt(myMap.size())));
         end = System.nanoTime();
